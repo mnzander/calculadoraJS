@@ -1,0 +1,146 @@
+@import "mixins";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+
+    .exterior{
+        width: 500px;
+        height: 600px;
+        border: 4px solid rgb(218, 218, 218);
+        background-color: rgb(48, 48, 48);
+
+        .superior {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 20%;
+            background-color: rgb(0, 0, 0);
+
+            .pantalla {
+                display: flex;
+                font-size: 80px;
+                justify-content: end;
+                padding-right: 30px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(206, 255, 212);
+                height: 80%;
+                width: 90%;
+                background-color: rgb(13, 19, 14);
+           
+            }
+        }
+
+        .inferior { 
+            display: grid;
+            justify-content: center;
+            padding-top: 20px;
+            width: 100%;
+            height: 460px;
+            background-color: rgb(22, 22, 22);
+            font-size: 25px;
+            font-weight: bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 80px 80px 80px 80px 80px;
+            gap: 10px 15px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "Divide X Resta Suma"
+              "Seven Eight Nine Igual"
+              "Four Five Six Igual"
+              "One Two Three Igual"
+              "Zero Dot Reset Igual";
+    
+              .divide { 
+                grid-area: Divide;
+                @include button-styling;
+            }
+          
+            .multiply { 
+                grid-area: X; 
+                @include button-styling;
+            }
+          
+            .resta { 
+                grid-area: Resta;
+                @include button-styling;
+            }
+          
+            .suma { 
+                grid-area: Suma;
+                @include button-styling;
+            }
+          
+            .igual { 
+                grid-area: Igual;
+                @include button-styling;
+            }
+          
+            .seven {
+                grid-area: Seven;
+                @include button-styling;
+            }
+          
+            .eight { 
+                grid-area: Eight;
+                @include button-styling;
+            }
+          
+            .nine { 
+                grid-area: Nine;
+                @include button-styling;
+            }
+          
+            .four { 
+                grid-area: Four;
+                @include button-styling;
+            }
+          
+            .five { 
+                grid-area: Five;
+                @include button-styling;
+            }
+          
+            .six { 
+                grid-area: Six;
+                @include button-styling;
+            }
+          
+            .one { 
+                grid-area: One;
+                @include button-styling;
+            }
+          
+            .two { 
+                grid-area: Two;
+                @include button-styling;
+            }
+          
+            .three { 
+                grid-area: Three;
+                @include button-styling;
+            }
+          
+            .zero { 
+                grid-area: Zero;
+                @include button-styling;
+            }
+          
+            .dot { 
+                grid-area: Dot;
+                @include button-styling;
+            }
+          
+            .reset { 
+                grid-area: Reset;
+                @include button-styling;
+            }
+        }    
+    }
+}

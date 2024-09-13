@@ -1,0 +1,204 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+body .exterior {
+  width: 500px;
+  height: 600px;
+  border: 4px solid rgb(218, 218, 218);
+  background-color: rgb(48, 48, 48);
+}
+body .exterior .superior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background-color: rgb(0, 0, 0);
+}
+body .exterior .superior .pantalla {
+  display: flex;
+  font-size: 80px;
+  justify-content: end;
+  padding-right: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(206, 255, 212);
+  height: 80%;
+  width: 90%;
+  background-color: rgb(13, 19, 14);
+}
+body .exterior .inferior {
+  display: grid;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+  height: 460px;
+  background-color: rgb(22, 22, 22);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+  gap: 10px 15px;
+  grid-auto-flow: row;
+  grid-template-areas: "Divide X Resta Suma" "Seven Eight Nine Igual" "Four Five Six Igual" "One Two Three Igual" "Zero Dot Reset Igual";
+}
+body .exterior .inferior .divide {
+  grid-area: Divide;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .multiply {
+  grid-area: X;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .resta {
+  grid-area: Resta;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .suma {
+  grid-area: Suma;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .igual {
+  grid-area: Igual;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .seven {
+  grid-area: Seven;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .eight {
+  grid-area: Eight;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .nine {
+  grid-area: Nine;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .four {
+  grid-area: Four;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .five {
+  grid-area: Five;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .six {
+  grid-area: Six;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .one {
+  grid-area: One;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .two {
+  grid-area: Two;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .three {
+  grid-area: Three;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .zero {
+  grid-area: Zero;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .dot {
+  grid-area: Dot;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .exterior .inferior .reset {
+  grid-area: Reset;
+  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

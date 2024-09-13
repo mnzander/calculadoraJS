@@ -1,0 +1,8 @@
+@mixin button-styling {
+    border: 1px solid white;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
